@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SKImageExtension'
+  s.name             = 'SKNImageExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SKImageExtension.'
+  s.summary          = 'A short description of SKNImageExtension.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Nirmal/SKImageExtension'
+  s.homepage         = 'https://github.com/nirmalcontus/SKImageExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nirmal' => 'nirmal@contus.in' }
-  s.source           = { :git => 'https://github.com/Nirmal/SKImageExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nirmalcontus/SKImageExtension.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SKImageExtension/Classes/**/*'
+  s.frameworks = 'UIKit'
   
   # s.resource_bundles = {
   #   'SKImageExtension' => ['SKImageExtension/Assets/*.png']
